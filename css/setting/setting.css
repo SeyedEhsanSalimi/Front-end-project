@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section.wrapper{
+    width: 100%;
+}
+@font-face {
+    font-family: opensans1;
+    src: url("../../Fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf");
+}
+@font-face {
+    font-family: opensans2;
+    src: url("../../Fonts/OpenSans-VariableFont_wdth,wght.ttf");
+}
+@font-face {
+    font-family: opensans3;
+    src: url("../../Fonts/OpenSans_SemiCondensed-Light.ttf");
+}
+@font-face {
+    font-family: opensans4;
+    src: url("../../Fonts/OpenSans_SemiCondensed-Regular.ttf");
+}
+

@@ -1,0 +1,465 @@
+@media (min-width: 1200px ) {
+    section.cost {
+        width: 100%;
+        height: 750px;
+        background-color: #f1f1f1;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    section.cost > div {
+        width: 27%;
+        height: 520px;
+        background-color: #ffffff;
+        margin: 120px 30px;
+        transition: 300ms all linear;
+
+    }
+
+    section.cost > div:hover {
+        transform: scale(1.05, 1.05);
+    }
+
+    section.cost > div:hover > h1 {
+        background-color: #44c0c2;
+    }
+
+    section.cost > div > h1 {
+        width: 100%;
+        height: 80px;
+        line-height: 80px;
+        background-color: #485460;
+        color: #ffffff;
+        font-family: opensans2;
+        font-size: 26px;
+        text-align: center;
+        transition: 300ms all linear;
+    }
+
+    section.cost > div > h2 {
+        width: 100%;
+        height: 70px;
+        line-height: 70px;
+        color: #69727b;
+        background-color: #f8f9fb;
+        font-family: opensans2;
+        font-size: 20px;
+        text-align: center;
+        border-bottom: 3px solid #f1f1f1;
+
+    }
+
+    section.cost > div > h3 {
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+        color: #8f9499;
+        font-family: opensans2;
+        font-size: 14px;
+        text-align: center;
+        border-bottom: 3px solid #f1f1f1;
+
+    }
+
+    section.cost > div > h3:nth-of-type(6) {
+        margin-bottom: 20px;
+    }
+
+    section.cost > div > a {
+        width: 170px;
+        height: 40px;
+        line-height: 40px;
+        display: block;
+        background-color: #4e525d;
+        text-decoration: none;
+        color: #ffffff;
+        border-radius: 5%;
+        font-size: 14px;
+        font-family: opensans2;
+        text-align: center;
+        margin: 0 auto;
+        transition: 300ms all linear;
+    }
+
+    section.cost > div > a:hover {
+        background-color: #44c0c2;
+        transform: scale(1.1, 1.1);
+    }
+
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+    section.cost {
+        width: 100%;
+        height: 750px;
+        background-color: #f1f1f1;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    section.cost > div {
+        width: 27%;
+        height: 520px;
+        background-color: #ffffff;
+        margin: 120px 30px;
+        transition: 300ms all linear;
+
+    }
+
+    section.cost > div:hover {
+        transform: scale(1.05, 1.05);
+    }
+
+    section.cost > div:hover > h1 {
+        background-color: #44c0c2;
+    }
+
+    section.cost > div > h1 {
+        width: 100%;
+        height: 80px;
+        line-height: 80px;
+        background-color: #485460;
+        color: #ffffff;
+        font-family: opensans2;
+        font-size: 26px;
+        text-align: center;
+        transition: 300ms all linear;
+    }
+
+    section.cost > div > h2 {
+        width: 100%;
+        height: 70px;
+        line-height: 70px;
+        color: #69727b;
+        background-color: #f8f9fb;
+        font-family: opensans2;
+        font-size: 20px;
+        text-align: center;
+        border-bottom: 3px solid #f1f1f1;
+
+    }
+
+    section.cost > div > h3 {
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+        color: #8f9499;
+        font-family: opensans2;
+        font-size: 14px;
+        text-align: center;
+        border-bottom: 3px solid #f1f1f1;
+
+    }
+
+    section.cost > div > h3:nth-of-type(6) {
+        margin-bottom: 20px;
+    }
+
+    section.cost > div > a {
+        width: 170px;
+        height: 40px;
+        line-height: 40px;
+        display: block;
+        background-color: #4e525d;
+        text-decoration: none;
+        color: #ffffff;
+        border-radius: 5%;
+        font-size: 14px;
+        font-family: opensans2;
+        text-align: center;
+        margin: 0 auto;
+        transition: 300ms all linear;
+    }
+
+    section.cost > div > a:hover {
+        background-color: #44c0c2;
+        transform: scale(1.1, 1.1);
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+    section.cost {
+        width: 100%;
+        height: 750px;
+        background-color: #f1f1f1;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    section.cost > div {
+        width: 27%;
+        height: 520px;
+        background-color: #ffffff;
+        margin: 120px 15px;
+        transition: 300ms all linear;
+
+    }
+
+    section.cost > div:hover {
+        transform: scale(1.05, 1.05);
+    }
+
+    section.cost > div:hover > h1 {
+        background-color: #44c0c2;
+    }
+
+    section.cost > div > h1 {
+        width: 100%;
+        height: 80px;
+        line-height: 80px;
+        background-color: #485460;
+        color: #ffffff;
+        font-family: opensans2;
+        font-size: 22px;
+        text-align: center;
+        transition: 300ms all linear;
+    }
+
+    section.cost > div > h2 {
+        width: 100%;
+        height: 70px;
+        line-height: 70px;
+        color: #69727b;
+        background-color: #f8f9fb;
+        font-family: opensans2;
+        font-size: 18px;
+        text-align: center;
+        border-bottom: 3px solid #f1f1f1;
+
+    }
+
+    section.cost > div > h3 {
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+        color: #8f9499;
+        font-family: opensans2;
+        font-size: 12px;
+        text-align: center;
+        border-bottom: 3px solid #f1f1f1;
+
+    }
+
+    section.cost > div > h3:nth-of-type(6) {
+        margin-bottom: 20px;
+    }
+
+    section.cost > div > a {
+        width: 170px;
+        height: 40px;
+        line-height: 40px;
+        display: block;
+        background-color: #4e525d;
+        text-decoration: none;
+        color: #ffffff;
+        border-radius: 5%;
+        font-size: 14px;
+        font-family: opensans2;
+        text-align: center;
+        margin: 0 auto;
+        transition: 300ms all linear;
+    }
+
+    section.cost > div > a:hover {
+        background-color: #44c0c2;
+        transform: scale(1.1, 1.1);
+    }
+
+}
+
+@media (min-width: 540px) and (max-width: 768px) {
+    section.cost {
+        width: 100%;
+        height: 750px;
+        background-color: #f1f1f1;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    section.cost > div {
+        width: 27%;
+        height: 520px;
+        background-color: #ffffff;
+        margin: 120px 10px;
+        transition: 300ms all linear;
+
+    }
+
+    section.cost > div:hover {
+        transform: scale(1.05, 1.05);
+    }
+
+    section.cost > div:hover > h1 {
+        background-color: #44c0c2;
+    }
+
+    section.cost > div > h1 {
+        width: 100%;
+        height: 80px;
+        line-height: 80px;
+        background-color: #485460;
+        color: #ffffff;
+        font-family: opensans2;
+        font-size: 20px;
+        text-align: center;
+        transition: 300ms all linear;
+    }
+
+    section.cost > div > h2 {
+        width: 100%;
+        height: 70px;
+        line-height: 70px;
+        color: #69727b;
+        background-color: #f8f9fb;
+        font-family: opensans2;
+        font-size: 16px;
+        text-align: center;
+        border-bottom: 3px solid #f1f1f1;
+
+    }
+
+    section.cost > div > h3 {
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+        color: #8f9499;
+        font-family: opensans2;
+        font-size: 11px;
+        text-align: center;
+        border-bottom: 3px solid #f1f1f1;
+
+    }
+
+    section.cost > div > h3:nth-of-type(6) {
+        margin-bottom: 20px;
+    }
+
+    section.cost > div > a {
+        width: 120px;
+        height: 40px;
+        line-height: 40px;
+        display: block;
+        background-color: #4e525d;
+        text-decoration: none;
+        color: #ffffff;
+        border-radius: 5%;
+        font-size: 14px;
+        font-family: opensans2;
+        text-align: center;
+        margin: 0 auto;
+        transition: 300ms all linear;
+    }
+
+    section.cost > div > a:hover {
+        background-color: #44c0c2;
+        transform: scale(1.1, 1.1);
+    }
+
+
+}
+
+@media (max-width: 540px) {
+    section.cost {
+        width: 100%;
+        height: 1800px;
+        background-color: #f1f1f1;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        box-sizing: border-box;
+    }
+
+    section.cost > div {
+        width: 70%;
+        height: 520px;
+        background-color: #ffffff;
+        margin: 20px 10px;
+        transition: 300ms all linear;
+
+    }
+
+    section.cost > div:hover {
+        transform: scale(1.05, 1.05);
+    }
+
+    section.cost > div:hover > h1 {
+        background-color: #44c0c2;
+    }
+
+    section.cost > div > h1 {
+        width: 100%;
+        height: 80px;
+        line-height: 80px;
+        background-color: #485460;
+        color: #ffffff;
+        font-family: opensans2;
+        font-size: 20px;
+        text-align: center;
+        transition: 300ms all linear;
+    }
+
+    section.cost > div > h2 {
+        width: 100%;
+        height: 70px;
+        line-height: 70px;
+        color: #69727b;
+        background-color: #f8f9fb;
+        font-family: opensans2;
+        font-size: 16px;
+        text-align: center;
+        border-bottom: 3px solid #f1f1f1;
+
+    }
+
+    section.cost > div > h3 {
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+        color: #8f9499;
+        font-family: opensans2;
+        font-size: 11px;
+        text-align: center;
+        border-bottom: 3px solid #f1f1f1;
+
+    }
+
+    section.cost > div > h3:nth-of-type(6) {
+        margin-bottom: 20px;
+    }
+
+    section.cost > div > a {
+        width: 120px;
+        height: 40px;
+        line-height: 40px;
+        display: block;
+        background-color: #4e525d;
+        text-decoration: none;
+        color: #ffffff;
+        border-radius: 5%;
+        font-size: 14px;
+        font-family: opensans2;
+        text-align: center;
+        margin: 0 auto;
+        transition: 300ms all linear;
+    }
+
+    section.cost > div > a:hover {
+        background-color: #44c0c2;
+        transform: scale(1.1, 1.1);
+    }
+
+
+}

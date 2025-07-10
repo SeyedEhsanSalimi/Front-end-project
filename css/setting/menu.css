@@ -1,0 +1,370 @@
+@media (min-width: 1200px) {
+    section.menu{
+        width: 100%;
+        height: 100px;
+        background-color: #ffffff;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+    }
+    section.menu>div:nth-of-type(1){
+        width: 30%;
+        height: inherit;
+        text-align: center;
+        line-height: 120px;
+
+
+    }
+    section.menu>div:nth-of-type(1)>img{
+
+    }
+    section.menu>div:nth-of-type(2){
+        width: 70%;
+        height: inherit;
+    }
+    section.menu>div:nth-of-type(2)>nav{
+        width: 100%;
+        height: inherit;
+
+    }
+    section.menu>div:nth-of-type(2)>nav>ul{
+        width: inherit;
+        height: inherit;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 50px;
+        box-sizing: border-box;
+
+
+    }
+    section.menu>div:nth-of-type(2)>nav>ul>li{
+        width: auto;
+        height: inherit;
+        margin-left: 2px;
+
+    }
+    section.menu>div:nth-of-type(2)>nav>ul>li>a{
+        width: inherit;
+        height: inherit;
+        padding: 0 20px;
+        box-sizing: border-box;
+        display: block;
+        text-transform: capitalize;
+        text-decoration: none;
+        color: #60646c;
+        line-height: 80px;
+        font-family: opensans2;
+        font-size: 15px;
+        font-weight: bold;
+        transition: all 100ms linear;
+    }
+    section.menu>div:nth-of-type(2)>nav>ul>li>a:hover{
+        background-color: #f8f9fb;
+        color: #44c0c2;
+        border-bottom: 5px inset #44c0c2 ;
+
+
+    }
+
+}
+@media (min-width: 990px) and (max-width: 1200px) {
+    section.menu{
+        width: 100%;
+        height: 100px;
+        background-color: #ffffff;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+    }
+    section.menu>div:nth-of-type(1){
+        width: 30%;
+        height: inherit;
+        text-align: center;
+        line-height: 120px;
+
+
+    }
+    section.menu>div:nth-of-type(1)>img{
+
+    }
+    section.menu>div:nth-of-type(2){
+        width: 70%;
+        height: inherit;
+    }
+    section.menu>div:nth-of-type(2)>nav{
+        width: 100%;
+        height: inherit;
+
+    }
+    section.menu>div:nth-of-type(2)>nav>ul{
+        width: inherit;
+        height: inherit;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 50px;
+        box-sizing: border-box;
+
+
+    }
+    section.menu>div:nth-of-type(2)>nav>ul>li{
+        width: auto;
+        height: inherit;
+        margin-left: 2px;
+
+    }
+    section.menu>div:nth-of-type(2)>nav>ul>li>a{
+        width: inherit;
+        height: inherit;
+        padding: 0 20px;
+        box-sizing: border-box;
+        display: block;
+        text-transform: capitalize;
+        text-decoration: none;
+        color: #60646c;
+        line-height: 80px;
+        font-family: opensans2;
+        font-size: 15px;
+        font-weight: bold;
+        transition: all 100ms linear;
+    }
+    section.menu>div:nth-of-type(2)>nav>ul>li>a:hover{
+        background-color: #f8f9fb;
+        color: #44c0c2;
+        border-bottom: 5px inset #44c0c2 ;
+
+
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    section.menu{
+        width: 100%;
+        height: 100px;
+        background-color: #ffffff;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+    }
+    section.menu>div:nth-of-type(1){
+        width: 20%;
+        height: inherit;
+        text-align: center;
+        line-height: 120px;
+        padding-left: 50px;
+        box-sizing: border-box;
+
+
+    }
+    section.menu>div:nth-of-type(1)>img{
+
+    }
+    section.menu>div:nth-of-type(2){
+        width: 80%;
+        height: inherit;
+    }
+    section.menu>div:nth-of-type(2)>nav{
+        width: 100%;
+        height: inherit;
+
+    }
+    section.menu>div:nth-of-type(2)>nav>ul{
+        width: inherit;
+        height: inherit;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding-left: 70px;
+        box-sizing: border-box;
+
+
+
+    }
+    section.menu>div:nth-of-type(2)>nav>ul>li{
+        width: auto;
+        height: inherit;
+        margin-left: 2px;
+
+    }
+    section.menu>div:nth-of-type(2)>nav>ul>li>a{
+        width: inherit;
+        height: inherit;
+        padding: 0 20px;
+        box-sizing: border-box;
+        display: block;
+        text-transform: capitalize;
+        text-decoration: none;
+        color: #60646c;
+        line-height: 80px;
+        font-family: opensans2;
+        font-size: 15px;
+        font-weight: bold;
+        transition: all 100ms linear;
+    }
+    section.menu>div:nth-of-type(2)>nav>ul>li>a:hover{
+        background-color: #f8f9fb;
+        color: #44c0c2;
+        border-bottom: 5px inset #44c0c2 ;
+
+
+    }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+    section.menu{
+        width: 100%;
+        background-color: #ffffff;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+
+    }
+    section.menu>div:nth-of-type(1){
+        width: 100%;
+        text-align: center;
+        line-height: 120px;
+        background-color: #60646c;
+        height: 100px;
+
+
+    }
+    section.menu>div:nth-of-type(1)>img{
+
+    }
+    section.menu>div:nth-of-type(2){
+        width:100%;
+        margin: 0 auto;
+    }
+    section.menu>div:nth-of-type(2)>nav{
+        width: 100%;
+        height: inherit;
+
+    }
+    section.menu>div:nth-of-type(2)>nav>ul{
+        width: inherit;
+        height: inherit;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+
+    }
+    section.menu>div:nth-of-type(2)>nav>ul>li{
+        width: auto;
+        text-align: center;
+
+
+
+    }
+    section.menu>div:nth-of-type(2)>nav>ul>li>a{
+        width: inherit;
+        padding: 2px 20px;
+        box-sizing: border-box;
+        display: block;
+        text-transform: capitalize;
+        text-decoration: none;
+        color: #60646c;
+        line-height: 80px;
+        font-family: opensans2;
+        font-size: 15px;
+        font-weight: bold;
+        transition: all 100ms linear;
+        text-align: center;
+
+    }
+    section.menu>div:nth-of-type(2)>nav>ul>li>a:hover{
+        background-color: #f8f9fb;
+        color: #44c0c2;
+        border-bottom: 5px inset #44c0c2 ;
+
+
+
+    }
+
+
+}
+@media (max-width: 540px) {
+    section.menu{
+        width: 100%;
+        background-color: #ffffff;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+
+    }
+    section.menu>div:nth-of-type(1){
+        width: 100%;
+        text-align: center;
+        line-height: 120px;
+        background-color: #60646c;
+        height: 100px;
+
+
+    }
+    section.menu>div:nth-of-type(1)>img{
+
+    }
+    section.menu>div:nth-of-type(2){
+        width:100%;
+        margin: 0 auto;
+    }
+    section.menu>div:nth-of-type(2)>nav{
+        width: 100%;
+        height: inherit;
+
+    }
+    section.menu>div:nth-of-type(2)>nav>ul{
+        width: inherit;
+        height: inherit;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+
+    }
+    section.menu>div:nth-of-type(2)>nav>ul>li{
+        width: auto;
+        text-align: center;
+
+
+
+    }
+    section.menu>div:nth-of-type(2)>nav>ul>li>a{
+        width: inherit;
+        padding: 2px 20px;
+        box-sizing: border-box;
+        display: block;
+        text-transform: capitalize;
+        text-decoration: none;
+        color: #60646c;
+        line-height: 80px;
+        font-family: opensans2;
+        font-size: 15px;
+        font-weight: bold;
+        transition: all 100ms linear;
+        text-align: center;
+
+    }
+    section.menu>div:nth-of-type(2)>nav>ul>li>a:hover{
+        background-color: #f8f9fb;
+        color: #44c0c2;
+        border-bottom: 5px inset #44c0c2 ;
+
+
+
+    }
+
+}
+

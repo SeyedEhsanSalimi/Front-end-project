@@ -1,0 +1,27 @@
+/*setting*/
+@import "setting/setting.css";
+/*end setting*/
+/*menu*/
+@import "setting/menu.css";
+/*end menu*/
+/*slider*/
+@import "setting/slider.css";
+/*end slider*/
+/*product*/
+@import "setting/product.css";
+/*end product*/
+/*gallery*/
+@import "setting/gallery.css";
+/*end gallery*/
+/*team*/
+@import "setting/team.css";
+/*end team*/
+/*cost*/
+@import "setting/cost.css";
+/*end cost*/
+/*slider second*/
+@import "setting/slider.second.css";
+/*end slider second*/
+/*contact*/
+@import "setting/footer.css";
+/*end contact*/

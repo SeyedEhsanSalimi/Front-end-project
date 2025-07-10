@@ -1,0 +1,437 @@
+@media(min-width: 1200px) {
+    section.slider{
+        width: 100%;
+        position: relative;
+    }
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    section.slider>section.text{
+        width: 90%;
+        position: absolute;
+        top: calc(30%);
+        left: calc(50% - 45%);
+        z-index: 10;
+
+    }
+    section.slider>section.text>h1{
+        text-align: center;
+        font-family: opensans2;
+        font-size: 63px;
+        margin-bottom: 30px;
+        color: #ffffff;
+
+    }
+    section.slider>section.text>p{
+        width: 500px;
+        text-align: center;
+        font-family: opensans2;
+        font-size: 23px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        color: #ffffff;
+
+    }
+    section.slider>section.text>a{
+        width: 230px;
+        height: 70px;
+        text-align: center;
+        font-family: opensans2;
+        font-size: 26px;
+        display: block;
+        margin: 0 auto;
+        line-height: 70px;
+        border-radius: 2%;
+        border: 3px solid #ffffff;
+        color: #ffffff;
+        transition: 300ms all linear;
+        text-decoration: none;
+
+
+    }
+    section.slider>section.text>a:hover{
+        cursor: pointer;
+        transform: scale(1.2,1.2);
+    }
+
+}
+@media(min-width: 990px) and (max-width: 1200px){
+    section.slider{
+        width: 100%;
+        position: relative;
+    }
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+
+    }
+    section.slider>section.text{
+        width: 90%;
+        position: absolute;
+        top: calc(27%);
+        left: calc(50% - 45%);
+        z-index: 10;
+
+    }
+    section.slider>section.text>h1{
+        text-align: center;
+        font-family: opensans2;
+        font-size: 50px;
+        margin-bottom: 30px;
+        color: #ffffff;
+
+    }
+    section.slider>section.text>p{
+        width: 500px;
+        text-align: center;
+        font-family: opensans2;
+        font-size: 18px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        color: #ffffff;
+
+    }
+    section.slider>section.text>a{
+        width: 200px;
+        height: 50px;
+        line-height: 50px;
+
+        text-align: center;
+        font-family: opensans2;
+        font-size: 24px;
+        display: block;
+        margin: 0 auto;
+        border-radius: 2%;
+        border: 3px solid #ffffff;
+        color: #ffffff;
+        transition: 300ms all linear;
+        text-decoration: none;
+
+
+    }
+    section.slider>section.text>a:hover{
+        cursor: pointer;
+        transform: scale(1.2,1.2);
+    }
+
+}
+@media(min-width: 768px) and (max-width: 990px){
+    section.slider{
+        width: 100%;
+        position: relative;
+    }
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    section.slider>section.text{
+        width: 90%;
+        position: absolute;
+        top: calc(22%);
+        left: calc(50% - 45%);
+        z-index: 10;
+
+    }
+    section.slider>section.text>h1{
+        text-align: center;
+        font-family: opensans2;
+        font-size: 40px;
+        margin-bottom: 30px;
+        color: #ffffff;
+
+    }
+    section.slider>section.text>p{
+        width: 500px;
+        text-align: center;
+        font-family: opensans2;
+        font-size: 14px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        color: #ffffff;
+
+    }
+    section.slider>section.text>a{
+        width: 150px;
+        height: 50px;
+        text-align: center;
+        font-family: opensans2;
+        font-size: 20px;
+        display: block;
+        margin: 0 auto;
+        line-height: 50px;
+        border-radius: 2%;
+        border: 3px solid #ffffff;
+        color: #ffffff;
+        transition: 300ms all linear;
+        text-decoration: none;
+
+
+    }
+    section.slider>section.text>a:hover{
+        cursor: pointer;
+        transform: scale(1.2,1.2);
+    }
+
+}
+@media(min-width: 540px) and (max-width: 768px){
+    section.slider{
+        width: 100%;
+        position: relative;
+    }
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    section.slider>section.text{
+        width: 90%;
+        position: absolute;
+        top: calc(22%);
+        left: calc(50% - 45%);
+        z-index: 10;
+
+    }
+    section.slider>section.text>h1{
+        width: 100%;
+        text-align: center;
+        font-family: opensans2;
+        font-size: 30px;
+        margin-bottom: 20px;
+        color: #ffffff;
+
+    }
+    section.slider>section.text>p{
+        width: 500px;
+        text-align: center;
+        font-family: opensans2;
+        font-size: 12px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        color: #ffffff;
+
+    }
+    section.slider>section.text>a{
+        width: 140px;
+        height: 40px;
+        text-align: center;
+        font-family: opensans2;
+        font-size: 18px;
+        display: block;
+        margin: 0 auto;
+        line-height: 40px;
+        border-radius: 2%;
+        border: 3px solid #ffffff;
+        color: #ffffff;
+        transition: 300ms all linear;
+        text-decoration: none;
+
+
+    }
+    section.slider>section.text>a:hover{
+        cursor: pointer;
+        transform: scale(1.2,1.2);
+    }
+
+
+}
+@media(max-width: 540px){
+    section.slider{
+        width: 100%;
+        position: relative;
+
+    }
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    section.slider>section.text{
+        width: 90%;
+        position: absolute;
+        top: calc(20%);
+        left: calc(50% - 45%);
+        z-index: 10;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+    section.slider>section.text>h1{
+        width: 100%;
+        text-align: center;
+        font-family: opensans2;
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: #ffffff;
+
+    }
+    section.slider>section.text>p{
+        text-align: center;
+        font-family: opensans2;
+        font-size: 10px;
+        margin-bottom: 10px;
+        color: #ffffff;
+
+    }
+    section.slider>section.text>a{
+        width: 100px;
+        height: 30px;
+        text-align: center;
+        font-family: opensans2;
+        font-size: 12px;
+        display: block;
+        margin: 0 auto;
+        line-height: 30px;
+        border-radius: 2%;
+        border: 3px solid #ffffff;
+        color: #ffffff;
+        transition: 300ms all linear;
+        text-decoration: none;
+
+
+    }
+    section.slider>section.text>a:hover{
+        cursor: pointer;
+        transform: scale(1.2,1.2);
+    }
+
+
+}

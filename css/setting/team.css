@@ -1,0 +1,578 @@
+@media (min-width: 1200px) {
+    section.team {
+        width: 100%;
+        height: 800px;
+    }
+
+    section.team > h1 {
+        font-family: opensans2;
+        font-size: 42px;
+        text-transform: capitalize;
+        text-align: center;
+        padding-top: 100px;
+        box-sizing: border-box;
+        margin-bottom: 130px;
+        color: #4e525d;
+
+
+
+    }
+
+    section.team > div {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    section.team > div >section.first {
+        width: 50%;
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    section.team > div >section.second {
+        width: 50%;
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+    }
+
+    section.team > div > section.first > div,section.team > div > section.second > div {
+        width: 35%;
+        height: inherit;
+        margin: 0 30px;
+        padding-top: 10px;
+        box-sizing: border-box;
+        text-align: center;
+        transition: 300ms all linear;
+    }
+    section.team > div > section.first > div:hover{
+        transform: scale(1.05,1.05);
+        border: 2px inset black;
+    }
+    section.team > div > section.second > div:hover{
+        transform: scale(1.05,1.05);
+        border: 2px solid black;
+    }
+    section.team > div > section.first > div > h3,section.team > div > section.second > div > h3 {
+        padding-top: 70px;
+        box-sizing: border-box;
+        font-size: 22px;
+        font-family: opensans2;
+        text-align: center;
+        color: #4e525d;
+
+    }
+
+    section.team > div > section.first > div > h6,section.team > div > section.second > div > h6  {
+        padding-top: 1px;
+        box-sizing: border-box;
+        font-size: 12px;
+        font-family: opensans2;
+        text-align: center;
+        color: #4e525d;
+
+
+    }
+
+    section.team > div > section.first > div > p,section.team > div > section.second > div > p {
+        padding-top: 30px;
+        box-sizing: border-box;
+        font-size: 14px;
+        font-family: opensans2;
+        text-align: center;
+        color: #4e525d;
+
+    }
+
+    section.team > div > section.first > div:nth-of-type(2){
+        position: relative;
+
+    }
+
+    section.team > div > section.first > div:nth-of-type(2) > img:nth-of-type(2) {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 190%);
+    }
+
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+    section.team {
+        width: 100%;
+        height: 800px;
+    }
+
+    section.team > h1 {
+        font-family: opensans2;
+        font-size: 42px;
+        text-transform: capitalize;
+        text-align: center;
+        font-weight: bold;
+        padding-top: 100px;
+        box-sizing: border-box;
+        margin-bottom: 100px;
+        color: #4e525d;
+
+
+
+    }
+
+    section.team > div {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    section.team > div >section.first {
+        width: 50%;
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    section.team > div >section.second {
+        width: 50%;
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+    }
+
+    section.team > div > section.first > div,section.team > div > section.second > div {
+        width: 40%;
+        height: inherit;
+        margin: 0 20px;
+        text-align: center;
+        padding-top: 10px;
+        box-sizing: border-box;
+        transition: 300ms all linear;
+    }
+    section.team > div > section.first > div:hover{
+        transform: scale(1.05,1.05);
+        border: 2px inset black;
+    }
+    section.team > div > section.second > div:hover{
+        transform: scale(1.05,1.05);
+        border: 2px solid black;
+    }
+
+    section.team > div > section.first > div > h3,section.team > div > section.second > div > h3 {
+        padding-top: 70px;
+        box-sizing: border-box;
+        font-size: 22px;
+        font-family: opensans2;
+        text-align: center;
+        color: #4e525d;
+
+    }
+
+    section.team > div > section.first > div > h6,section.team > div > section.second > div > h6  {
+        padding-top: 1px;
+        box-sizing: border-box;
+        font-size: 12px;
+        font-family: opensans2;
+        text-align: center;
+        color: #4e525d;
+
+
+    }
+
+    section.team > div > section.first > div > p,section.team > div > section.second > div > p {
+        padding-top: 30px;
+        box-sizing: border-box;
+        font-size: 14px;
+        font-family: opensans2;
+        text-align: center;
+        color: #4e525d;
+
+    }
+
+    section.team > div > section.first > div:nth-of-type(2){
+        position: relative;
+
+    }
+
+    section.team > div > section.first > div:nth-of-type(2) > img:nth-of-type(2) {
+        position: absolute;
+        left: 51%;
+        transform: translate(-50%, 170%);
+        width: 42px;
+        height: 41px;
+    }
+    section.team > div > section.first > div > img,section.team > div > section.second > div > img{
+        width: 185px;
+        height: 185px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+    section.team {
+        width: 100%;
+        height: 1100px;
+    }
+
+    section.team > h1 {
+        font-family: opensans2;
+        font-size: 40px;
+        text-transform: capitalize;
+        text-align: center;
+        font-weight: bold;
+        padding-top: 50px;
+        box-sizing: border-box;
+        margin-bottom: 30px;
+        color: #4e525d;
+
+
+
+    }
+
+    section.team > div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    section.team > div >section.first {
+        width: 100%;
+        height: 450px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    section.team > div >section.second {
+        width: 100%;
+        height: 450px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.team > div > section.first > div,section.team > div > section.second > div {
+        width: 29%;
+        height: 400px;
+        margin: 0 30px;
+        text-align: center;
+        padding-top: 10px;
+        box-sizing: border-box;
+        transition: 300ms all linear;
+    }
+    section.team > div > section.first > div:hover{
+        transform: scale(1.05,1.05);
+        border: 2px inset black;
+    }
+    section.team > div > section.second > div:hover{
+        transform: scale(1.05,1.05);
+        border: 2px solid black;
+    }
+
+    section.team > div > section.first > div > img,section.team > div > section.second > div > img {
+        width: 150px;
+        height: 150px;
+    }
+    section.team > div > section.first > div:nth-of-type(2) > img:nth-of-type(2){
+        width: 35px;
+        height: 34px;
+    }
+
+    section.team > div > section.first > div > h3,section.team > div > section.second > div > h3 {
+        padding-top: 70px;
+        box-sizing: border-box;
+        font-size: 18px;
+        font-family: opensans2;
+        text-align: center;
+        color: #4e525d;
+
+    }
+
+    section.team > div > section.first > div > h6,section.team > div > section.second > div > h6  {
+        padding-top: 1px;
+        box-sizing: border-box;
+        font-size: 10px;
+        font-family: opensans2;
+        text-align: center;
+        color: #4e525d;
+
+    }
+
+    section.team > div > section.first > div > p,section.team > div > section.second > div > p {
+        padding-top: 30px;
+        box-sizing: border-box;
+        font-size: 12px;
+        font-family: opensans2;
+        text-align: center;
+        color: #4e525d;
+    }
+
+    section.team > div > section.first > div:nth-of-type(2) {
+        position: relative;
+
+    }
+
+    section.team > div > section.first > div:nth-of-type(2) > img:nth-of-type(2) {
+        position: absolute;
+        left: 51%;
+        transform: translate(-55%, 210%);
+    }
+    section.team > div > section.first > div > img,section.team > div > section.second > div > img{
+        width: 180px;
+        height: 180px;
+    }
+
+}
+
+@media (min-width: 540px) and (max-width: 768px) {
+    section.team {
+        width: 100%;
+        height: 1000px;
+    }
+
+    section.team > h1 {
+        font-family: opensans2;
+        font-size: 36px;
+        text-transform: capitalize;
+        text-align: center;
+        font-weight: bold;
+        padding-top: 50px;
+        box-sizing: border-box;
+        margin-bottom: 50px;
+        color: #4e525d;
+
+
+
+    }
+
+    section.team > div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    section.team > div >section.first {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    section.team > div >section.second {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.team > div > section.first > div,section.team > div > section.second > div {
+        width: 40%;
+        height: 400px;
+        margin: 0 20px;
+        padding-top: 10px;
+        box-sizing: border-box;
+        text-align: center;
+        transition: 300ms all linear;
+    }
+    section.team > div > section.first > div:hover{
+        transform: scale(1.05,1.05);
+        border: 2px inset black;
+    }
+    section.team > div > section.second > div:hover{
+        transform: scale(1.05,1.05);
+        border: 2px solid black;
+    }
+
+    section.team > div > section.first > div > img,section.team > div > section.second > div > img {
+        width: 150px;
+        height: 150px;
+    }
+    section.team > div > section.first > div:nth-of-type(2) > img:nth-of-type(2){
+        width: 35px;
+        height: 34px;
+    }
+
+    section.team > div > section.first > div > h3,section.team > div > section.second > div > h3 {
+        padding-top: 70px;
+        box-sizing: border-box;
+        font-size: 18px;
+        font-family: opensans2;
+        text-align: center;
+        color: #4e525d;
+            }
+
+    section.team > div > section.first > div > h6,section.team > div > section.second > div > h6  {
+        padding-top: 1px;
+        box-sizing: border-box;
+        font-size: 10px;
+        font-family: opensans2;
+        text-align: center;
+        color: #4e525d;
+
+    }
+
+    section.team > div > section.first > div > p,section.team > div > section.second > div > p {
+        padding-top: 30px;
+        box-sizing: border-box;
+        font-size: 12px;
+        font-family: opensans2;
+        text-align: center;
+        color: #4e525d;
+    }
+
+    section.team > div > section.first > div:nth-of-type(2) {
+        position: relative;
+
+    }
+
+    section.team > div > section.first > div:nth-of-type(2) > img:nth-of-type(2) {
+        position: absolute;
+        left: 51%;
+        transform: translate(-55%, 170%);
+    }
+
+
+}
+
+@media (max-width: 540px) {
+    section.team {
+        width: 100%;
+        height: 2000px;
+    }
+
+    section.team > h1 {
+        font-family: opensans2;
+        font-size: 28px;
+        text-transform: capitalize;
+        text-align: center;
+        font-weight: bold;
+        padding-top: 50px;
+        box-sizing: border-box;
+        margin-bottom: 50px;
+        color: #4e525d;
+
+
+
+    }
+
+    section.team > div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    section.team > div >section.first {
+        width: 100%;
+        height: 900px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    section.team > div >section.second {
+        width: 100%;
+        height: 900px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    section.team > div > section.first > div,section.team > div > section.second > div {
+        width: 60%;
+        height: 400px;
+        margin: 20px 0;
+        padding-top: 10px;
+        box-sizing: border-box;
+        text-align: center;
+        transition: 300ms all linear;
+    }
+    section.team > div > section.first > div:hover{
+        transform: scale(1.05,1.05);
+        border: 2px inset black;
+    }
+    section.team > div > section.second > div:hover{
+        transform: scale(1.05,1.05);
+        border: 2px solid black;
+    }
+
+    section.team > div > section.first > div > img,section.team > div > section.second > div > img {
+        width: 150px;
+        height: 150px;
+    }
+    section.team > div > section.first > div:nth-of-type(2) > img:nth-of-type(2){
+        width: 35px;
+        height: 34px;
+    }
+
+    section.team > div > section.first > div > h3,section.team > div > section.second > div > h3 {
+        padding-top: 70px;
+        box-sizing: border-box;
+        font-size: 18px;
+        font-family: opensans2;
+        text-align: center;
+        color: #4e525d;
+    }
+
+    section.team > div > section.first > div > h6,section.team > div > section.second > div > h6  {
+        padding-top: 1px;
+        box-sizing: border-box;
+        font-size: 10px;
+        font-family: opensans2;
+        text-align: center;
+        color: #4e525d;
+
+    }
+
+    section.team > div > section.first > div > p,section.team > div > section.second > div > p {
+        padding-top: 30px;
+        box-sizing: border-box;
+        font-size: 12px;
+        font-family: opensans2;
+        text-align: center;
+        color: #4e525d;
+    }
+
+    section.team > div > section.first > div:nth-of-type(2) {
+        position: relative;
+
+    }
+
+    section.team > div > section.first > div:nth-of-type(2) > img:nth-of-type(2) {
+        position: absolute;
+        left: 52%;
+        transform: translate(-58%, 140%);
+    }
+    section.team > div > section.first > div > img,section.team > div > section.second > div > img{
+        width: 130px;
+        height: 130px;
+    }
+
+
+
+}

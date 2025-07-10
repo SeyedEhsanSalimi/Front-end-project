@@ -1,0 +1,600 @@
+
+@media (min-width: 1200px) {
+    section.gallery {
+        width: 100%;
+        height: 1030px;
+        background-color: #f1f1f1;
+    }
+
+    section.gallery > h1 {
+        padding-top: 50px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #4e525d;
+        font-family: opensans2;
+        font-size: 42px;
+        margin-bottom: 60px;
+
+    }
+
+    section.gallery > div {
+        width: inherit;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    /*top*/
+    section.gallery > div > div:nth-of-type(1) {
+        width: inherit;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    section.gallery > div > div:nth-of-type(1) > a {
+        margin-bottom: 30px;
+        transition: all 300ms linear;
+    }
+
+    section.gallery > div > div:nth-of-type(1) > a:hover {
+        transform: scale(1.05, 1.05);
+    }
+
+    section.gallery > div > div:nth-of-type(1) > a:nth-of-type(2) {
+        padding-left: 30px;
+        box-sizing: border-box;
+    }
+
+    section.gallery > div > div:nth-of-type(1) > a:nth-of-type(3) {
+        padding-left: 30px;
+        box-sizing: border-box;
+    }
+
+    /*bottom*/
+    section.gallery > div > div:nth-of-type(2) {
+        width: inherit;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    section.gallery > div > div:nth-of-type(2) > a {
+        transition: all 300ms linear;
+    }
+
+    section.gallery > div > div:nth-of-type(2) > a:hover {
+        transform: scale(1.05, 1.05);
+    }
+
+    section.gallery > div > div:nth-of-type(2) > a:nth-of-type(2) {
+        padding-left: 30px;
+        box-sizing: border-box;
+    }
+
+    section.gallery > div > div:nth-of-type(2) > a:nth-of-type(3) {
+        padding-left: 30px;
+        box-sizing: border-box;
+    }
+
+    section.gallery > a.text {
+        width: 235px;
+        height: 65px;
+        line-height: 65px;
+        display: block;
+        text-align: center;
+        font-family: opensans2;
+        border-radius: 5px;
+        font-size: 24px;
+        margin: 60px auto;
+        background-color: #44c0c2;
+        color: #ffffff;
+        text-decoration: none;
+        transition: all 300ms linear;
+    }
+
+    section.gallery > a:hover {
+        transform: scale(1.1, 1.1);
+    }
+
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+    section.gallery {
+        width: 100%;
+        height: 900px;
+        background-color: #f1f1f1;
+    }
+
+    section.gallery > h1 {
+        padding-top: 50px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #4e525d;
+        font-family: opensans2;
+        font-size: 42px;
+        margin-bottom: 60px;
+
+    }
+
+    section.gallery > div {
+        width: inherit;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    /*top*/
+    section.gallery > div > div:nth-of-type(1) {
+        width: inherit;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    section.gallery > div > div:nth-of-type(1) > a {
+        margin-bottom: 30px;
+        transition: all 300ms linear;
+    }
+
+    section.gallery > div > div:nth-of-type(1) > a:hover {
+        transform: scale(1.05, 1.05);
+    }
+
+    section.gallery > div > div:nth-of-type(1) > a > img {
+        width: 300px;
+        height: 254px;
+    }
+
+    section.gallery > div > div:nth-of-type(1) > a:nth-of-type(2) {
+        padding-left: 30px;
+        box-sizing: border-box;
+    }
+
+    section.gallery > div > div:nth-of-type(1) > a:nth-of-type(3) {
+        padding-left: 30px;
+        box-sizing: border-box;
+    }
+
+    /*bottom*/
+    section.gallery > div > div:nth-of-type(2) {
+        width: inherit;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 60px;
+
+    }
+
+    section.gallery > div > div:nth-of-type(2) > a {
+        transition: all 300ms linear;
+    }
+
+    section.gallery > div > div:nth-of-type(2) > a > img {
+        width: 300px;
+        height: 254px;
+    }
+
+    section.gallery > div > div:nth-of-type(2) > a:hover {
+        transform: scale(1.05, 1.05);
+    }
+
+    section.gallery > div > div:nth-of-type(2) > a:nth-of-type(2) {
+        padding-left: 30px;
+        box-sizing: border-box;
+    }
+
+    section.gallery > div > div:nth-of-type(2) > a:nth-of-type(3) {
+        padding-left: 30px;
+        box-sizing: border-box;
+    }
+
+    section.gallery > a.text {
+        width: 235px;
+        height: 65px;
+        line-height: 65px;
+        display: block;
+        text-align: center;
+        font-family: opensans2;
+        border-radius: 5px;
+        font-size: 24px;
+        margin: 0 auto;
+        background-color: #44c0c2;
+        color: #ffffff;
+        text-decoration: none;
+        transition: all 300ms linear;
+    }
+
+    section.gallery > a:hover {
+        transform: scale(1.1, 1.1);
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+    section.gallery {
+        width: 100%;
+        height: 1200px;
+        background-color: #f1f1f1;
+        margin-top: 50px;
+    }
+
+    section.gallery > h1 {
+        padding-top: 50px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #4e525d;
+        font-family: opensans2;
+        font-size: 42px;
+        margin-bottom: 38px;
+
+    }
+
+    section.gallery > div {
+        width: inherit;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    /*top*/
+    section.gallery > div > div:nth-of-type(1) {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-end;
+        padding-right: 15px;
+        box-sizing: border-box;
+
+    }
+
+    section.gallery > div > div:nth-of-type(1) > a {
+        margin-bottom: 30px;
+        transition: all 300ms linear;
+    }
+
+    section.gallery > div > div:nth-of-type(1) > a:hover {
+        transform: scale(1.05, 1.05);
+    }
+
+    section.gallery > div > div:nth-of-type(1) > a > img {
+        width: 300px;
+        height: 254px;
+    }
+
+    section.gallery > div > div:nth-of-type(1) > a:nth-of-type(2) {
+
+
+    }
+
+    section.gallery > div > div:nth-of-type(1) > a:nth-of-type(3) {
+
+    }
+
+    /*bottom*/
+    section.gallery > div > div:nth-of-type(2) {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: center;
+        padding-left: 15px;
+        box-sizing: border-box;
+
+
+    }
+
+    section.gallery > div > div:nth-of-type(2) > a {
+        margin-bottom: 30px;
+        transition: all 300ms linear;
+
+    }
+
+    section.gallery > div > div:nth-of-type(2) > a > img {
+        width: 300px;
+        height: 254px;
+    }
+
+    section.gallery > div > div:nth-of-type(2) > a:hover {
+        transform: scale(1.05, 1.05);
+    }
+
+    section.gallery > div > div:nth-of-type(2) > a:nth-of-type(2) {
+
+    }
+
+    section.gallery > div > div:nth-of-type(2) > a:nth-of-type(3) {
+
+    }
+
+    section.gallery > a.text {
+        width: 235px;
+        height: 65px;
+        line-height: 65px;
+        display: block;
+        text-align: center;
+        font-family: opensans2;
+        border-radius: 5px;
+        font-size: 24px;
+        margin: 0 auto;
+        background-color: #44c0c2;
+        color: #ffffff;
+        text-decoration: none;
+        transition: all 300ms linear;
+
+    }
+
+    section.gallery > a:hover {
+        transform: scale(1.1, 1.1);
+    }
+
+}
+
+@media (min-width: 540px) and (max-width: 768px) {
+    section.gallery {
+        width: 100%;
+        height: 1000px;
+        background-color: #f1f1f1;
+        margin-top: 50px;
+    }
+
+    section.gallery > h1 {
+        padding-top: 50px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #4e525d;
+        font-family: opensans2;
+        font-size: 35px;
+        margin-bottom: 40px;
+
+    }
+
+    section.gallery > div {
+        width: inherit;
+        height: 750px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+
+    /*top*/
+    section.gallery > div > div:nth-of-type(1) {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-end;
+        padding-right: 15px;
+        box-sizing: border-box;
+
+    }
+
+    section.gallery > div > div:nth-of-type(1) > a {
+        margin-bottom: 30px;
+        transition: all 300ms linear;
+    }
+
+    section.gallery > div > div:nth-of-type(1) > a:hover {
+        transform: scale(1.05, 1.05);
+    }
+
+    section.gallery > div > div:nth-of-type(1) > a > img {
+        width: 250px;
+        height: 212px;
+    }
+
+    section.gallery > div > div:nth-of-type(1) > a:nth-of-type(2) {
+
+
+    }
+
+    section.gallery > div > div:nth-of-type(1) > a:nth-of-type(3) {
+
+    }
+
+    /*bottom*/
+    section.gallery > div > div:nth-of-type(2) {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: center;
+        padding-left: 15px;
+        box-sizing: border-box;
+
+
+    }
+
+    section.gallery > div > div:nth-of-type(2) > a {
+        margin-bottom: 30px;
+        transition: all 300ms linear;
+
+    }
+
+    section.gallery > div > div:nth-of-type(2) > a > img {
+        width: 250px;
+        height: 212px;
+    }
+
+    section.gallery > div > div:nth-of-type(2) > a:hover {
+        transform: scale(1.05, 1.05);
+    }
+
+    section.gallery > div > div:nth-of-type(2) > a:nth-of-type(2) {
+
+    }
+
+    section.gallery > div > div:nth-of-type(2) > a:nth-of-type(3) {
+
+    }
+
+    section.gallery > a.text {
+        width: 200px;
+        height: 55px;
+        line-height: 55px;
+        display: block;
+        text-align: center;
+        font-family: opensans2;
+        border-radius: 5px;
+        font-size: 20px;
+        margin: 0 auto;
+        background-color: #44c0c2;
+        color: #ffffff;
+        text-decoration: none;
+        transition: all 300ms linear;
+
+    }
+
+    section.gallery > a:hover {
+        transform: scale(1.1, 1.1);
+    }
+
+
+}
+
+@media (max-width: 540px) {
+    section.gallery {
+        width: 100%;
+        height: 700px;
+        background-color: #f1f1f1;
+        margin-top: 50px;
+    }
+
+    section.gallery > h1 {
+        padding-top: 50px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #4e525d;
+        font-family: opensans2;
+        font-size: 25px;
+
+    }
+
+    section.gallery > div {
+        width: inherit;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+        padding-top: 50px;
+        box-sizing: border-box;
+    }
+
+    /*top*/
+    section.gallery > div > div:nth-of-type(1) {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-end;
+        padding-right: 15px;
+        box-sizing: border-box;
+
+    }
+
+    section.gallery > div > div:nth-of-type(1) > a {
+        margin-bottom: 30px;
+        transition: all 300ms linear;
+    }
+
+    section.gallery > div > div:nth-of-type(1) > a:hover {
+        transform: scale(1.05, 1.05);
+    }
+
+    section.gallery > div > div:nth-of-type(1) > a > img {
+        width: 150px;
+        height: 127px;
+    }
+
+    section.gallery > div > div:nth-of-type(1) > a:nth-of-type(2) {
+
+
+    }
+
+    section.gallery > div > div:nth-of-type(1) > a:nth-of-type(3) {
+
+    }
+
+    /*bottom*/
+    section.gallery > div > div:nth-of-type(2) {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: center;
+        padding-left: 15px;
+        box-sizing: border-box;
+
+
+    }
+
+    section.gallery > div > div:nth-of-type(2) > a {
+        margin-bottom: 30px;
+        transition: all 300ms linear;
+
+    }
+
+    section.gallery > div > div:nth-of-type(2) > a > img {
+        width: 150px;
+        height: 127px;
+    }
+
+    section.gallery > div > div:nth-of-type(2) > a:hover {
+        transform: scale(1.05, 1.05);
+    }
+
+    section.gallery > div > div:nth-of-type(2) > a:nth-of-type(2) {
+
+    }
+
+    section.gallery > div > div:nth-of-type(2) > a:nth-of-type(3) {
+
+    }
+
+    section.gallery > a.text {
+        width: 150px;
+        height: 45px;
+        line-height:45px;
+        display: block;
+        text-align: center;
+        font-family: opensans2;
+        border-radius: 5px;
+        font-size: 15px;
+        margin: 0 auto;
+        background-color: #44c0c2;
+        color: #ffffff;
+        text-decoration: none;
+        transition: all 300ms linear;
+
+    }
+
+    section.gallery > a:hover {
+        transform: scale(1.1, 1.1);
+    }
+
+
+
+}
